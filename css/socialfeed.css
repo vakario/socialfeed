@@ -1,0 +1,114 @@
+#social_feed_display 
+{
+	background:#eceded;
+	padding:4% 0 1% 0;
+	display:table;
+}
+
+#social_feed_display #left_col
+{
+	display:table-cell;
+	vertical-align:middle;
+	width:6%;
+	padding-top:6%;
+}
+
+#social_feed_display #left_col p
+{
+	margin: 0;
+	font-size: 155px;
+	
+}
+#social_feed_display #left_col #quote_haut
+{
+	position: absolute;
+	top: 120px;
+}
+
+#social_feed_display #left_col #quote_bas
+{
+	position: absolute;
+	bottom: 15px;
+}
+
+#social_feed_display #log_social
+{
+	display:table-cell;
+	vertical-align:middle;
+	width:10%;
+	margin:0;
+	padding-bottom: 4%;
+}
+
+#social_feed_display #tw_feed
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#social_feed_display .tweet_text
+{
+	font: 200 23px/25px "Swiss-black","Open Sans", sans-serif;
+	padding-left:3%;
+	float:left;
+}
+
+#social_feed_display #tw_feed a
+{
+	color:inherit;
+}
+
+#social_feed_display .date_post
+{
+	font: 200 14px/17px "Swiss-black","Open Sans", sans-serif;
+	float:right;
+}
+
+#socialfeed_block{
+	display:block;
+	vertical-align:middle;
+	width:100%;
+	margin:0;
+	color:#FFFFFF;
+	font: 200 18px/18px 'Open Sans', Helvetica, sans serif;
+	text-transform:capitalize;
+	text-align:center;
+	font-weight:bold;
+}
+
+#socialfeed_block em
+{
+	font-size:40px;
+}
+
+#socialfeed_block .title_join
+{
+	color:#FFFFFF;
+	font: 200 18px/18px 'Open Sans', Helvetica, sans serif;
+	font-weight:bold;
+}
+
+#socialfeed_block ul
+{
+	margin-top:10px;
+}
+
+#socialfeed_block li
+{
+	display:inline-block;
+	margin-top:30px;
+	margin-bottom:40px;
+}
+
+#socialfeed_block li a
+{
+	color:#FFFFFF;
+	font: 200 18px/18px 'Open Sans', Helvetica, sans serif;
+	font-weight:bold;
+	border:1px solid #FFFFFF;
+	padding:5px 20px;
+}
+
+	#social_feed_display #tw_feed .tw_user, #social_feed_display #tw_feed .tw_link {
+		color: #6ec3e6;
+}
